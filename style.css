@@ -57,7 +57,7 @@ body {
   .footer-section h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
-    border-bottom: 1px solid #555; /* Ligne décorative sous les titres */
+    border-bottom: 1px solid #555;
     padding-bottom: 5px;
   }
   
@@ -65,7 +65,8 @@ body {
     font-size: 0.9rem;
     line-height: 1.5;
   }
+  @media screen and (max-width: 768px) {
   .footer-section {
-    width: 100%; /* Chaque section 
-occupe 100% de la largeur */
+    width: 100%;
   }
+}
