@@ -6,13 +6,10 @@ body {
     display: flex;
     justify-content: center;
 }
-.contenu {
-    width: 1700px;
-    background-color: white;
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    height: 3400px;
+
+
+.contenu{
+  width: 100%;
 }
 .article {
     display: flex;
@@ -27,7 +24,7 @@ body {
 .image {
     width: 25%;
     background-color: #ddd;
-    height: 200px;
+    height: 300px;
     margin: 10px;
 }
 
@@ -65,8 +62,15 @@ body {
     font-size: 0.9rem;
     line-height: 1.5;
   }
-  @media screen and (max-width: 768px) {
+  
+    
+  
   .footer-section {
     width: 100%;
   }
-}
+  @media screen and (max-width: 640px) {
+    .text
+    {
+      font-size: 22px;
+    }
+  }
