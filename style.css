@@ -21,11 +21,10 @@ body {
 .article:last-child {
     border-bottom: none;
 }
-.image {
-    width: 25%;
-    background-color: #ddd;
-    height: 300px;
-    margin: 10px;
+img {
+    width: 400px;
+    height: auto;
+
 }
 
 .text {
