@@ -24,3 +24,26 @@ body {
 .article:last-child {
     border-bottom: none;
 }
+.image {
+    width: 30%;
+    background-color: #ddd;
+    height: 120px;
+    margin: 10px;
+}
+
+.image2 {
+  width: 30%;
+  background-color: #ddd;
+  height: 120px;
+  margin: 10px;
+  justify-content: right;
+}
+
+
+.text {
+    width: 70%;
+    font-size: 14px;
+
+    text-align: left;
+    line-height: 1.5;
+}
