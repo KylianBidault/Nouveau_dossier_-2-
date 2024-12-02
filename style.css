@@ -6,3 +6,11 @@ body {
     display: flex;
     justify-content: center;
 }
+.contenu {
+    width: 1000px;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    height: 1500px;
+}
