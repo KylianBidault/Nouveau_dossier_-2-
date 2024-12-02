@@ -14,3 +14,13 @@ body {
     border: 1px solid #ccc;
     height: 1500px;
 }
+.article {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.article:last-child {
+    border-bottom: none;
+}
