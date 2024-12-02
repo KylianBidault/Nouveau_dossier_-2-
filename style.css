@@ -10,12 +10,23 @@ body {
 
 .contenu{
   width: 100%;
+  justify-content:space-between;
+  background-color: #555;
+}
+header{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  background-color: firebrick;
 }
 .article {
     display: flex;
     margin-bottom: 20px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
+    margin: 10px;
 }
 
 .article:last-child {
@@ -24,13 +35,14 @@ body {
 img {
     width: 400px;
     height: auto;
+    margin-right: 10px;
 
 }
 
 .text {
     width: 70%;
     font-size: 14px;
-
+    color: white;
     text-align: left;
     line-height: 1.5;
 }
