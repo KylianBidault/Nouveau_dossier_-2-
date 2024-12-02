@@ -44,3 +44,28 @@ body {
     padding: 20px 10%;
     text-align: center;
   }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    width: 30%; 
+    margin-bottom: 20px; 
+  }
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #555; /* Ligne décorative sous les titres */
+    padding-bottom: 5px;
+  }
+  
+  .footer-section p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .footer-section {
+    width: 100%; /* Chaque section 
+occupe 100% de la largeur */
+  }
