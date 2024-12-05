@@ -1,18 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ÉPOQUE CONTEMPORAINE - Accueil</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>ÉPOQUE CONTEMPORAINE - Accueil</title>
+    </head>
 <body>
-    <div class="container">
-        <h1>Époque Contemporaine</h1>
-        <h2>Formulaire Question</h2>
-        <form action="submit.php" method="POST">
-            <label for="question">Votre question :</label>
-            <textarea id="question" name="question" rows="4" required></textarea>
-            <div class="choices">
-                <label>
-                   
+    <div class="contenu">
+        <header>
+            <div class="logo-container"> 
+                <img src="image/logo-favvvv.jpg" alt="Logo" class="logo">
+            </div>
+            <h1>Époque Contemporaine</h1>
+        </header> 
+        <nav class="menu">
+            <a href="index.html">Accueil</a>
+            <a href="révolution.html">La Révolution</a>
+            <a href="GUERRE MONDIALES.html">Guerres Mondiales</a>
+            <a href="Guerre Froide.html">Guerre Froide</a>
+            <!--Les liens vers toutes les pages du site-->
+        </nav>
+        <section class="article">
+            <div class="image1">
+                <img src="image/REVOLUTION SUR L'ACCUEIL.jpg" alt="Prise de la bastille">
+                <!--image révolution francaise-->
+            </div>
+            <div class="text">
+                <h1 id="texth1">
+                    <p>PLONGEZ AU COEUR DE LA RÉVOLUTION FRANCAISE</p>
+                </h1><!--Phrase d'accroche sur la Révolution Francaise-->
+            </div>
+        </section>
+        <section class="article">
+            <div class="text">
+                <h1 id="texth1">
+                    <p>SANS PASSER PAR LES REBONDISSEMENT DES DEUX GUERRES MONDIALES</p>
+                </h1> <!--Phrase d'accroche sur les guerres mondiales-->
+            </div>
+       
+            <div class="image2">
+                <img src="image/GUERRE MONDIALE SUR L'ACCUEIL.jpg" alt="Les droits de l'homme">
+                <!--image Guerres Mondiales-->
+            </div>
+        </section>
+        <section class="article">
+            <div class="image1">
+                <img src="image/GUERRE Froide SUR L'ACCUEIL.jpg" alt="Prise de la bastille">
+                <!--image Guerre Froide-->
+            </div>
+            <div class="text">
+                <h1 id="texth1">
+                    <p>TOUT EN OUBLIANT PAS L'ENVIRONNEMENT GLACIALE DE LA GUERRE FROIDE</p>
+                </h1><!--Phrase d'accroche sur la guerre froide-->
+            </div>
+        </section>
+        <section class="article">
+            <div class="AccueilForm">
+                <h2>Formulaire Question</h2>
+                <form action="submit.php" method="POST">
+                    <label for="question">
+                        Quel est votre période favorite de cette époque ?
+                    </label>
+                    <div class="choices">
+                        <label>
+                            <input type="radio" name="answer" value="A" required><!--cela permet à l'utilisation de cocher une reponse et grace au required il ne peut pas envoyer le formulaire tant qu'il n'a pas cocher un reponse-->
+                            La Révolution
+                        </label>
+                        <label>
+                            <input type="radio" name="answer" value="B">
+                            Les Guerre Mondiales
+                        </label>
+                        <label>
+                            <input type="radio" name="answer" value="C">
+                            La Guerre Froide
+                        </label>
+                    </div>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mentions légales</h3>
+                    <p>ÉDITEUR DU SITE : KYLIAN BIDAULT</p>
+                    <P>HEBERGEUR : </P>
+                </div>
+                <div class="footer-section">
+                    <h3>Politique de confidentialité</h3>
+                    <p>Contact</p>
+                    <p>Newsletters</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Conditions générales</h3>
+                    <p>Il faut être abonné a Masdak</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-   /*j'ai mis une image en fond et pour qu'il se mette un une fois et qu'il prenne toute la largeur je lui ai demandé de ne pas se répeter et de prendre toute la largeur avec le cover et le placer au centre de page*/
+   /*j'ai mis une image en fond et pour qu'il se mette un une fois et qu'il prenne toute la largeur je lui ai demandé de ne pas se répeter et de prendre toute la largeur de la page avec le cover et le placer au centre de page*/
 }
 header{
   
@@ -76,7 +76,8 @@ header{
   padding-bottom: 10px;
   margin-top: 20px;
   align-items: center;
-  
+  justify-content: space-around;
+  /*ils servent à bien placer les image et les textes de sorte à rendre le rendu plus esthétique*/
   
 }
 img {
@@ -148,5 +149,30 @@ img {
     }
   }
   /*J'ai utilisé internet pour cette commande pour mettre mes textes en dessous de mes image sur téléphone mais c'est pour rendre le contenu responsive*/
+
+  /*page accueil et Formulaire*/
+
+
+  .AccueilForm {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  /*BLOC DES QUESTIONS MIS EN BLANC POUR BIEN VOIR LES ECRITURE ET LES BORDURES AVEC DES OMBRES NOIRS FAISANT LE TOUR DU BLOCK */
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+/* LES METTRES DANS UN MEME BLOCK ET FAIRE LES ECARTS ENTRE CHAQUE REPONSE ET LE TEXTES MIS EN GRAS POUR PLUS DE VISIBILITÉS DES TEXTES*/
 
   
