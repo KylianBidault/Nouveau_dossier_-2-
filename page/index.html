@@ -18,13 +18,13 @@
         <nav class="menu">
             <a href="index.html">Accueil</a>
             <a href="révolution.html">La Révolution</a>
-            <a href="GUERRE MONDIALES.html">Guerres Mondiales</a>
-            <a href="Guerre Froide.html">Guerre Froide</a>
+            <a href="GUERRE_MONDIALES.html">Guerres Mondiales</a>
+            <a href="Guerre_Froide.html">Guerre Froide</a>
             <!--Les liens vers toutes les pages du site-->
         </nav>
         <section class="article">
             <div class="image1">
-                <img src="../image/REVOLUTION SUR L'ACCUEIL.jpg" alt="Prise de la bastille">
+                <img src="../image/REVOLUTION_SUR_L'ACCUEIL.jpg" alt="Révolution">
                 <!--image révolution francaise-->
             </div>
             <div class="text">
@@ -41,13 +41,13 @@
             </div>
        
             <div class="image2">
-                <img src="../image/GUERRE MONDIALE SUR L'ACCUEIL.jpg" alt="Les droits de l'homme">
+                <img src="../image/GUERRE_MONDIALE_SUR_L'ACCUEIL.jpg" alt="les 2 guerres mondiales">
                 <!--image Guerres Mondiales-->
             </div>
         </section>
         <section class="article">
             <div class="image1">
-                <img src="../image/GUERRE Froide SUR L'ACCUEIL.jpg" alt="Prise de la bastille">
+                <img src="../image/GUERRE_Froide_SUR_L'ACCUEIL.jpg" alt="la guerre froide">
                 <!--image Guerre Froide-->
             </div>
             <div class="text">
@@ -59,21 +59,21 @@
         <section class="article">
             <div class="AccueilForm">
                 <h2>Formulaire Question</h2>
-                <form action="submit.php" method="POST">
+                <form action="../php/submit.php" method="post">
                     <label for="question">
                         Quel est votre période favorite de cette époque ?
                     </label>
                     <div class="choices">
                         <label>
-                            <input type="radio" name="answer" value="A" required><!--cela permet à l'utilisation de cocher une reponse et grace au required il ne peut pas envoyer le formulaire tant qu'il n'a pas cocher un reponse-->
+                            <input type="checkbox" name="Révolution" value="A" required><!--cela permet à l'utilisation de cocher une reponse et grace au required il ne peut pas envoyer le formulaire tant qu'il n'a pas cocher un reponse-->
                             La Révolution
                         </label>
                         <label>
-                            <input type="radio" name="answer" value="B">
+                            <input type="checkbox" name="mondiale" value="B">
                             Les Guerre Mondiales
                         </label>
                         <label>
-                            <input type="radio" name="answer" value="C">
+                            <input type="checkbox" name="froide" value="C">
                             La Guerre Froide
                         </label>
                     </div>
