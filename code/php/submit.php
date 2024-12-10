@@ -22,12 +22,12 @@
                         $periode = "Les Guerres Mondiales";
                     } elseif ($reponse == "Froide") {
                         $periode = "La Guerre Froide";
-                    } /*affichage de la réponse sur la page php*/ 
+                    } 
                     echo $periode;
 
                     $fichier = "reponse.txt";
                     $ligne = "$periode\n";
-                    file_put_contents($fichier, $ligne, FILE_APPEND);/*récupération de données sur un ficher .txt*/
+                    file_put_contents($fichier, $ligne, FILE_APPEND);
                 } 
                 ?>
             </p>
